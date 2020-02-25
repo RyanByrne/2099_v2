@@ -834,7 +834,7 @@ input[type="reset"].btn--primary,
 input[type="button"].btn--primary {
     background: #FAF63B;
     border-color: #FAF63B;
-    color: #FFFFFF;
+    color: #000000;
 }
 
 .btn.btn--primary:hover,
@@ -847,8 +847,8 @@ button.btn--primary:focus,
 input[type="submit"].btn--primary:focus,
 input[type="reset"].btn--primary:focus,
 input[type="button"].btn--primary:focus {
-    background: #33a242;
-    border-color: #33a242;
+    background: white;
+    border-color: white;
 }
 
 
@@ -1221,7 +1221,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 }
 
 .display-1--light {
-    color: #FFFFFF;
+    color: #000000;
 }
 
 .display-2 {
@@ -1253,6 +1253,14 @@ button::-moz-focus-inner, input::-moz-focus-inner {
 
 .subhead--dark {
     color: #000000;
+}
+
+.subhead--dark a{
+  color: #000000;
+}
+
+.subhead--dark a::hover{
+  color: #FAF63B!important;
 }
 
 
@@ -1461,7 +1469,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
     padding: 0;
     outline: 0;
     border: none;
-    width: 80px;
+    width: 200px;
     -webkit-transition: all 0.3s ease-in-out;
     transition: all 0.3s ease-in-out;
 }
@@ -1768,7 +1776,7 @@ button::-moz-focus-inner, input::-moz-focus-inner {
     left: 0;
     width: 100%;
     height: 100%;
-    opacity: .6;
+    opacity: .4;
     background-color: #000000;
 }
 
@@ -2206,6 +2214,10 @@ html.no-csstransitions .home-content__main {
     background-color: #FAF63B;
     color: #010507;
     position: relative;
+}
+.s-quote {
+  background-color: black;
+  color:white;
 }
 
 .s-about .section-header.has-bottom-sep::before {
@@ -3621,6 +3633,7 @@ footer .row {
   color: white;
   font-weight: lighter;
 }
+
 .projects-list li::before{
   content: "- "
 }
@@ -3631,6 +3644,7 @@ footer .row {
 
 .team{
   border-radius: 50%;
+  width:
 }
 
 .s-team {
@@ -3639,4 +3653,10 @@ footer .row {
 
 .s-team .about-stats{
   padding: 60px 0 60px 0;
+}
+
+.quote-background{
+  /*background: url("../images/background-quote.jpg") no-repeat center;
+  background-blend-mode: darken;
+  background-size: cover;*/
 }
