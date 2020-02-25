@@ -3660,3 +3660,7 @@ footer .row {
   background-blend-mode: darken;
   background-size: cover;*/
 }
+
+.main {
+  disply:block;
+}
