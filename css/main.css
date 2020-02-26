@@ -3638,6 +3638,10 @@ footer .row {
   content: "- "
 }
 
+.service-text ul{
+  list-style: none;
+}
+
 .s-works .left{
   text-align: left;
 }
